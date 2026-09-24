@@ -8,5 +8,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_/Scenes/Menu.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/_/Scenes/Mort.unity
+    guid: 36b8e511e6fdce4478a58c605f06cb4b
+  - enabled: 1
+    path: Assets/_/Scenes/Niveau1.unity
+    guid: 21cdbf92bd80a2c4f8b54010a8d8a787
+  - enabled: 1
+    path: Assets/_/Scenes/Niveau2.unity
+    guid: 839fce4ad60a5aa429df3fe7d96e9fe7
+  - enabled: 1
+    path: Assets/_/Scenes/Niveau3.unity
+    guid: 0a72ee329ca0621498e50b836baec786
+  - enabled: 1
+    path: Assets/_/Scenes/Histoire.unity
+    guid: 5a8ece4c602be314f8afefdc3027529f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
