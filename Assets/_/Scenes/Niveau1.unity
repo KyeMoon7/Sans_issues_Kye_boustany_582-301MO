@@ -7003,7 +7003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a2b4dbe7527442429546e316ffb01a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioCrossfader
-  startSource: {fileID: 0}
+  startSource: {fileID: 570881944}
   fadeDuration: 3
 --- !u!4 &895302650
 Transform:
@@ -7743,6 +7743,7 @@ GameObject:
   - component: {fileID: 989986641}
   - component: {fileID: 989986639}
   - component: {fileID: 989986643}
+  - component: {fileID: 989986644}
   m_Layer: 0
   m_Name: cutscene
   m_TagString: Untagged
@@ -7847,6 +7848,33 @@ MonoBehaviour:
   AmplitudeGain: 1
   FrequencyGain: 1
   m_NoiseOffsets: {x: 0, y: 0, z: 0}
+--- !u!114 &989986644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989986638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5344cf9509a1e64d85132757491724b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationEventRelay
+  onAnimationEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 287241521486936594}
+        m_TargetAssemblyTypeName: StarterAssets.FirstPersonController, Unity.StarterAssets
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &993409487
 GameObject:
   m_ObjectHideFlags: 0
@@ -12279,7 +12307,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 63e454173e7d851408ae1d858757cbce, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.583
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -16333,7 +16361,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287241521486936597}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55919ac34a26952479f3fc91f777b2fa, type: 3}
   m_Name: 
