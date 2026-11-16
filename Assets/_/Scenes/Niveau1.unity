@@ -3537,7 +3537,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 085008afc7fd02c4986d75240be44e53, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.984
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3581,7 +3581,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.834
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -31383,7 +31383,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: c71827449713794408434c15fa562daa, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.984
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -31427,7 +31427,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.691
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
