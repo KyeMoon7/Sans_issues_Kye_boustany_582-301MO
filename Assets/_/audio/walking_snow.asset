@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-4637070069566382783
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: floraphonic-foot-step-snow-12-189872_{-4637070069566382783}
+  m_AudioClip: {fileID: 8300000, guid: 4a59bfa73dba1ed4aa0eeeea0d45cb90, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3313046382131550633
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: floraphonic-foot-step-snow-1-189869_{-3313046382131550633}
+  m_AudioClip: {fileID: 8300000, guid: 54f65c7205dd98b4caabae97ffbb7646, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2672824642873766190
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: floraphonic-foot-step-snow-4-189865_{-2672824642873766190}
+  m_AudioClip: {fileID: 8300000, guid: 5e08c9269c5e9ef4ca514d22562594d2, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: walking_snow
+  m_Volume: -13
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -2672824642873766190}
+  - {fileID: -4637070069566382783}
+  - {fileID: -3313046382131550633}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 1
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 1
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
