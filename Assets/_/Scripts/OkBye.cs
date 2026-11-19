@@ -1,16 +1,22 @@
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class OkBye : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        
+        if (Application.platform == RuntimePlatform.WebGLPlayer)
+            gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Quitter()
     {
-        
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 }

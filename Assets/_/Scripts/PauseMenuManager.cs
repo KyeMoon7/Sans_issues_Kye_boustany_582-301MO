@@ -4,7 +4,11 @@ public class PauseMenuManager : MonoBehaviour
 {
     public GameObject pauseMenuUI;
     private bool isPaused = false;
-
+    public bool locked = false;
+    void Start()
+    {
+        /*SetLocked(locked);*/
+    }
     // Update is called once per frame
     void Update()
     {
@@ -19,6 +23,8 @@ public class PauseMenuManager : MonoBehaviour
                 Pause();
             }
         }
+
+    
     }
 
     public void Resume()
@@ -26,6 +32,8 @@ public class PauseMenuManager : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f; // Resume game time
         isPaused = false;
+        Cursor.lockState = CursorLockMode.Locked;
+ 
     }
 
     void Pause()
@@ -33,6 +41,7 @@ public class PauseMenuManager : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f; // Freeze game time
         isPaused = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void QuitGame()
@@ -40,4 +49,5 @@ public class PauseMenuManager : MonoBehaviour
         Debug.Log("Quitting game...");
         Application.Quit();
     }
+
 }
